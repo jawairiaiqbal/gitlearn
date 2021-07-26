@@ -37,7 +37,7 @@
 </p>
 <br>
 
-Here in anchor tag I use absolute and relative urls ANOTHER WEBSITE(index.html) is relative and VISIT GOOGLE(https://www.google.com) is absolute.
+ Here in anchor tag I use absolute and relative urls ANOTHER WEBSITE(index.html) is relative and VISIT GOOGLE(https://www.google.com) is absolute.
 <br>
 
 <a href="vs.html" target="_blank" style="background-color: transparent; border: none; " >
@@ -374,7 +374,7 @@ Iframe without link
 
 Iframe with link:
 <iframe src="index.html" name="index" target="iframeexample" width="400" height="300" ></iframe>
-<p><a href="index.html" target="index"></a>Iframe example</p>
+<p><a href="index.html" target="index"></a>iframe example</p>
 <br><br><br>
 <hr>
 
