@@ -1,0 +1,17 @@
+cd
+
+git init
+
+git add -A
+git add filename
+
+git status
+
+git commit -m
+
+git remote origin master repositorylink
+
+git push origin master
+
+git clone repositrylink
+
