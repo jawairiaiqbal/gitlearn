@@ -1,17 +1,37 @@
-cd
+cd		(current directory)
+
+
 
 git init
 
+
+
 git add -A
+		(add file in git)
 git add filename
 
-git status
 
-git commit -m
+
+git status	(to find git status)
+
+
+
+git commit -m	(to create snapshot)
+
+
 
 git remote origin master repositorylink
 
+
+
 git push origin master
+
+
 
 git clone repositrylink
 
+
+git pull origin master
+
+
+git branch	(to find the branch)
