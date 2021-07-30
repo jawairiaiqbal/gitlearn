@@ -6,9 +6,7 @@
 	</head>
 <body>
 
-<h1 style="color: darkblue;" id="H1" >
-    First Heading
-</h1>
+<a name="FirstHeading"><h1 style="color: darkblue;">First Heading</h1></a>
 
 <p style="font-size: larger;" >
 <i>Trying to learn <br> html </i>
@@ -40,7 +38,7 @@
 Here in anchor tag I use absolute and relative urls ANOTHER WEBSITE(index.html) is relative and VISIT GOOGLE(https://www.google.com) is absolute.
 <br>
 
-<a href="vs.html" target="_blank" style="background-color: transparent; border: none; " >
+<a href="spiritup.jpg" style="background-color: transparent; border: none;" download="Spirit" >
 	<img src="spiritup.jpg" alt="keep your spirit up" style="width: 250px; height:200px ; background-color: transparent; " >
 </a>
 <br><br>
@@ -54,9 +52,8 @@ Here I use image as a hyperlink<!--use image tag in anchor tag-->
 <p style="font-size: x-large;" >Work,Work and Work </p>
 <hr>
 
-<h1 style="border:2px solid blue;" >
-   Second Heading	
-</h1>
+<a name="SecondHeading"><h1 style="border:2px solid blue;">Second Heading</h1></a>
+
 <p title="Inspiration" style="background-color: lavenderblush;" >Keep that spirit up <br>  And,go ahead </p>
 <pre title="poem" style="font-family: cursive;" >
 	And even through it's hard,
@@ -69,9 +66,7 @@ Here I use image as a hyperlink<!--use image tag in anchor tag-->
 </pre>
 <hr>
 
-<h1 style="text-align: center;" >
-	Third Heading
-</h1>
+<a name="ThirdHeading"><h1 style="text-align: center;">Third Heading</h1></a>
 
 <strong>strong-important</strong>
 <small>small</small>
@@ -142,7 +137,7 @@ Here I use image as a hyperlink<!--use image tag in anchor tag-->
 
 <style>
 
-   body   {background-color: ivory;
+   body   {background-color: rgb(243, 238, 211);"
    }
 
 	h1     {color: black;
@@ -152,6 +147,7 @@ Here I use image as a hyperlink<!--use image tag in anchor tag-->
            border:2px solid black ;
            padding: 20px;
            margin: 50px;
+           background-color: peachpuff;
 	}
 
 	p      {color: maroon;
@@ -166,7 +162,7 @@ Here I use image as a hyperlink<!--use image tag in anchor tag-->
 
 </style>
 
-<h1>Head css</h1>
+<a name="HeadCss"><h1>Head css</h1></a>
 <p>paragraph css</p>
 <br>
 
@@ -225,10 +221,6 @@ Used internal <abbr title="Cascading Style Sheet" style="text-decoration: none;"
    }
 
 </style>
-<p style="text-align:right;" >
-    <a href="#H1" style="background-color: plum;" >Go to First Heading</a>
-</p>
-<br>
 
 <p>
 	<img src="images.png" height="100px" width="200px" style="float: right;" >
@@ -250,13 +242,8 @@ Used internal <abbr title="Cascading Style Sheet" style="text-decoration: none;"
 <img src="workspace.jpg" alt="Workspace" usemap="#Workspace">
 <map name="Workspace" >
 <area shape="ract" coords="93,38,202,142" href="" title="laptop" onclick="alert('You clicked the Laptop!')" >
-<area shape="ract" coords="34,94,77,141" href="" title="Book" onclick="myfunction()" >
-<script >
-	function myfunction(){
-		alert("You clicked the Book!")
-	}
-</script>
-<area shape="circle" coords="230,77,26" href="" title="Coffee" onclick="alert('You clicked the coffee')" >
+<area shape="ract" coords="34,94,77,141" href="" title="Book" onclick="alert('You clicked the Book!')">
+<area shape="circle" coords="230,77,26" href="" title="Coffee" onclick="alert('You clicked the coffee!')" >
 </map>
 <br>
 <hr>
@@ -317,9 +304,7 @@ Used internal <abbr title="Cascading Style Sheet" style="text-decoration: none;"
 <hr>
 <br>
 
-<h1>
-	List 
-</h1>
+<a name="List"><h1>List</h1></a>
 
 <h4>Ordered list</h4>
 <ol type="i" >
@@ -368,17 +353,33 @@ Used internal <abbr title="Cascading Style Sheet" style="text-decoration: none;"
 </span>
 <br><br><br>
 
+<hr>
+<br>
+
+<a name="iframe"><h1>Iframe with or without link</h1></a>
+
 Iframe without link
 <iframe src="vs.html" title="iframeexample" width="400" height="300"></iframe>
 <br><br><br>
 
 Iframe with link:
 <iframe src="index.html" name="index" target="iframeexample" width="400" height="300" ></iframe>
-<p><a href="index.html" target="index"></a>iframe example</p>
+<p><a href="index.html" target="index"></a>Iframe example</p>
 <br><br><br>
 <hr>
 
-
+<a href="#FirstHeading" style="background-color: peachpuff; float: right; border: 1px solid black; color: white;">First Heading</a>
+<br><br><br>
+<a href="#SecondHeading" style="background-color: peachpuff; color: white; border: 1px solid black; float: right;">Second Heading</a>
+<br><br><br>
+<a href="#ThirdHeading" style="background-color: peachpuff; color: white; float: right; border: 1px solid black;">Third Heading</a>
+<br><br><br>
+<a href="#HeadCss" style="background-color: peachpuff; border: 1px solid black; float: right; color: white;">Head Css</a>
+<br><br><br>
+<a href="#list" style="background-color: peachpuff; border: 1px solid black; float: right; color: white;">List</a>
+<br><br><br>
+<a href="#iframe" style="float:right; color: white; border: 1px solid black; background: peachpuff;">Iframe with or without link</a>
+<br>
 
 </body>
 </html>
