@@ -35,3 +35,6 @@ git pull origin master
 
 
 git branch	(to find the branch)
+
+
+git config --global http.sslverify "false"	(to resolve any issue while cloning and pushing)
